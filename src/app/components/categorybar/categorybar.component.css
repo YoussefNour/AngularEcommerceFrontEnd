@@ -1,0 +1,28 @@
+div.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: black;
+    color: aliceblue;
+    margin: 60px 0 0 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    height: 25px;
+    margin: 0 5px 0 5px;
+    padding: 5px;
+}
+
+a:hover{
+    color: salmon;
+}
+
+a:active{
+    background-color: salmon;
+    color: aliceblue;
+}

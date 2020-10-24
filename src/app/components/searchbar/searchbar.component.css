@@ -1,0 +1,40 @@
+.main{
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 0 10px 0 30px;
+    width: fit-content;
+    height: 25px;
+    box-shadow: 5px 5px 8px 8px gainsboro;
+    background-color: transparent;
+}
+.input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline:none;
+    padding-left: 5px;
+    height: 100%;
+    background-color: aliceblue;
+}
+.searchbutton{
+    border-radius: 0 5px 5px 0;
+    border: none;
+    outline:none;
+    margin: -10px 0 -10px 0;
+    height: 100%;
+    border: solid 2px salmon;
+    background-color: salmon;
+    color: black;
+}
+
+.searchbutton:hover{
+    background-color: rgb(255, 165, 155);
+    border: solid 2px rgb(255, 165, 155);
+    color: black;
+}
+
+.searchbutton:active{
+    background-color: salmon;
+    border: solid 2px salmon;
+    color: black;
+    font-weight: bold;
+}

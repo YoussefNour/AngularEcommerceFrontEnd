@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EcommerceTemplate';
+  categories: string[] = [
+    'Clothes',
+    'Accessories',
+    'Shoes',
+    'Sports',
+    'Undergarments'
+  ];
 }
